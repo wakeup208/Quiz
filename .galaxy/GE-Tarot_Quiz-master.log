@@ -1,0 +1,14 @@
+[2021-04-27 17:19:24] [L] galaxy property is null or empty 
+[2021-04-27 17:19:24] [L] Non-GB Project : Tarot_Quiz-master 
+[2021-04-27 17:19:24] [L] allprojects : project : app 
+[2021-04-27 17:19:24] [L] Non-GB Project : app 
+[2021-04-27 17:19:24] [D] gradle projects loaded 
+[2021-04-27 17:19:24] [I] set common default repository : samsung maven 
+[2021-04-27 17:19:24] [I]     Default Repo : buildscript repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2021-04-27 17:19:24] [I]     Default Repo : repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2021-04-27 17:19:24] [I] set common default strategy 
+[2021-04-27 17:19:24] [I] set common default repository : samsung maven 
+[2021-04-27 17:19:24] [I]     Default Repo : buildscript repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2021-04-27 17:19:24] [I]     Default Repo : repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2021-04-27 17:19:24] [I] set common default strategy 
+[2021-04-27 17:19:25] [D] gradle projects evaluated 
