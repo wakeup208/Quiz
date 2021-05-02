@@ -67,10 +67,10 @@ Ace of Swords : Sức mạnh trí óc, Sự thật, Công lý, Kiên cường
 8 of Swords : Hạn chế, Rối loạn, Mất quyền lực
 9 of Swords :  Lo lắng, Cảm giác tội lỗi, Nỗi thống khổ
 10 of Swords : Chạm xuống đáy, Tâm lý bị hại, Chịu khổ nhục
-Page of Swords : Sử dụng lý trí, Thật thà, Công bằng, Kiên cường
-Knight of Swords : Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm
-Queen of Swords : Chân thật, Sắc sảo, Thẳng thắn, Vui tính, Từng trải
 King of Swords : Thông minh, Biết phân tích, Ăn nói lưu loát, Công bằng, Đạo đức
+Queen of Swords : Chân thật, Sắc sảo, Thẳng thắn, Vui tính, Từng trải
+Knight of Swords : Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm
+Page of Swords : Sử dụng lý trí, Thật thà, Công bằng, Kiên cường
 
 ------------- WANDS ------------
 Ace of Wands : Sáng tạo, Nhiệt tình, Tự tin, Can đảm
@@ -83,7 +83,7 @@ Ace of Wands : Sáng tạo, Nhiệt tình, Tự tin, Can đảm
 8 of Wands  Hành động nhanh Kết thúc / dứt điểm Tin tức
 9 of Wands  Phòng vệ Kiên nhẫn Chịu đựng
 10 of Wands  Quá sức Gánh nặng Cam chịu
-Page of Wands  Sáng tạo Nhiệt huyết Tự tin Can đảm
-Knight of Wands  Quyến rũ – Khô khan Tự tin – Tự mãn Dũng cảm – LIều lĩnh Mạo hiểm – Lo lắng Nồng nhiệt – Nóng nảy
-Queen of Wands  Hấp dẫn Toàn tâm Nhiệt huyết Vui vẻ Tự tin
 King of Wands  Sáng tạo Truyền cảm hứng Mạnh mẽ Có sức lôi cuốn Táo bạo
+Queen of Wands  Hấp dẫn Toàn tâm Nhiệt huyết Vui vẻ Tự tin
+Knight of Wands  Quyến rũ – Khô khan Tự tin – Tự mãn Dũng cảm – LIều lĩnh Mạo hiểm – Lo lắng Nồng nhiệt – Nóng nảy
+Page of Wands  Sáng tạo Nhiệt huyết Tự tin Can đảm

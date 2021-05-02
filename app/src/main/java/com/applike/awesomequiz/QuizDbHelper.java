@@ -153,9 +153,9 @@ public class QuizDbHelper extends SQLiteOpenHelper {
     private void fillQuestionTarotTable() {
         Question q1 = new Question("Ý nghĩa của lá bài The Fool ?",
                 "Hành Động, Nhận Thức Có Ý Thức, Tập Trung, Quyền Lực",
-                "Khởi Đầu, Tự Nguyện, Tự Phát, Niềm Tin, Điên Rồ",
-                "Nuôi Nấng, Sung Túc, Trù Phú, Tri Giác, Thiên Nhiên",
                 "Sức Mạnh, Nhẫn Nại, Lòng Trắc Ẩn, Kiểm Soát Mềm Mỏng",
+                "Nuôi Nấng, Sung Túc, Trù Phú, Tri Giác, Thiên Nhiên",
+                "Khởi Đầu, Tự Nguyện, Tự Phát, Niềm Tin, Điên Rồ",
                 4, Category.MajorArcana);
         insertQuestion(q1);
 
@@ -328,7 +328,456 @@ public class QuizDbHelper extends SQLiteOpenHelper {
         insertQuestion(q22);
 
         //End MajorArcana
-        
+        Question q23= new Question("Ý nghĩa của lá bài Ace of Cups ?",
+                "Sự kết nối, Đình chiến, Sự hấp dẫn",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                "Niềm vui, An bình, Gia đình",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                4, Category.SuitOfCups);
+        insertQuestion(q23);
+
+        Question q24= new Question("Ý nghĩa của lá bài 2 of Cups ?",
+                "Sự kết nối, Đình chiến, Sự hấp dẫn",
+                "Lãng mạn – dễ xúc động, Giàu tưởng tượng – không thực tế, Nhạy cảm – thất thường, Tinh tế – quá tế nhị, Nội tâm – nhút nhát",
+                "Hoàn thành ước nguyện, Hài lòng, Thỏa mãn thể chất",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                1, Category.SuitOfCups);
+        insertQuestion(q24);
+
+        Question q25= new Question("Ý nghĩa của lá bài 3 of Cups ?",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                "Tâm trạng phấn khởi, Tình bạn, Cộng đồng",
+                "Ý nghĩa sâu thẳm – chân lý, Tiến tới, Mệt mỏi",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                2, Category.SuitOfCups);
+        insertQuestion(q25);
+
+        Question q26= new Question("Ý nghĩa của lá bài 4 of Cups ?",
+                "Niềm vui, An bình, Gia đình",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                "Lãng mạn – dễ xúc động, Giàu tưởng tượng – không thực tế, Nhạy cảm – thất thường, Tinh tế – quá tế nhị, Nội tâm – nhút nhát",
+                2, Category.SuitOfCups);
+        insertQuestion(q26);
+
+        Question q27= new Question("Ý nghĩa của lá bài 5 of Cups ?",
+                "Thiện chí, Ngây thơ/khờ dại, Thời thơ ấu",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Niềm vui, An bình, Gia đình",
+                "Khôn ngoan, Trầm tĩnh, Tài ngoại giao, Chăm sóc, Khoan dung",
+                2, Category.SuitOfCups);
+        insertQuestion(q27);
+
+        Question q28= new Question("Ý nghĩa của lá bài 6 of Cups ?",
+                "Khôn ngoan, Trầm tĩnh, Tài ngoại giao, Chăm sóc, Khoan dung",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Thiện chí, Ngây thơ/khờ dại, Thời thơ ấu",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                3, Category.SuitOfCups);
+        insertQuestion(q28);
+
+        Question q29= new Question("Ý nghĩa của lá bài 7 of Cups ?",
+                "Ý nghĩa sâu thẳm – chân lý, Tiến tới, Mệt mỏi",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                "Ước vọng, Những lựa chọn, Sự tiêu pha",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                3, Category.SuitOfCups);
+        insertQuestion(q29);
+
+        Question q30= new Question("Ý nghĩa của lá bài 8 of Cups ?",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Tâm trạng phấn khởi, Tình bạn, Cộng đồng",
+                "Ý nghĩa sâu thẳm – chân lý, Tiến tới, Mệt mỏi",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                3, Category.SuitOfCups);
+        insertQuestion(q30);
+
+        Question q31= new Question("Ý nghĩa của lá bài 9 of Cups ?",
+                "Thiện chí, Ngây thơ/khờ dại, Thời thơ ấu",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Niềm vui, An bình, Gia đình",
+                "Hoàn thành ước nguyện, Hài lòng, Thỏa mãn thể chất",
+                4, Category.SuitOfCups);
+        insertQuestion(q31);
+
+        Question q32= new Question("Ý nghĩa của lá bài 10 of Cups ?",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                "Ước vọng, Những lựa chọn, Sự tiêu pha",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                "Niềm vui, An bình, Gia đình",
+                4, Category.SuitOfCups);
+        insertQuestion(q32);
+
+        Question q33= new Question("Ý nghĩa của lá bài King of Cups ?",
+                "Lãng mạn – dễ xúc động, Giàu tưởng tượng – không thực tế, Nhạy cảm – thất thường, Tinh tế – quá tế nhị, Nội tâm – nhút nhát",
+                "Khôn ngoan, Trầm tĩnh, Tài ngoại giao, Chăm sóc, Khoan dung",
+                "Ý nghĩa sâu thẳm – chân lý, Tiến tới, Mệt mỏi",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                2, Category.SuitOfCups);
+        insertQuestion(q33);
+
+        Question q34= new Question("Ý nghĩa của lá bài Queen of Cups ?",
+                "Thương yêu, Nhân hậu, Trực giác, Tâm lý, Tâm linh",
+                "Ước vọng, Những lựa chọn, Sự tiêu pha",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                "Niềm vui, An bình, Gia đình",
+                1, Category.SuitOfCups);
+        insertQuestion(q34);
+
+        Question q35= new Question("Ý nghĩa của lá bài Knight of Cups ?",
+                "Lãng mạn – dễ xúc động, Giàu tưởng tượng – không thực tế, Nhạy cảm – thất thường, Tinh tế – quá tế nhị, Nội tâm – nhút nhát",
+                "Thiện chí, Ngây thơ/khờ dại, Thời thơ ấu",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Niềm vui, An bình, Gia đình",
+                1, Category.SuitOfCups);
+        insertQuestion(q35);
+
+        Question q36= new Question("Ý nghĩa của lá bài Page of Cups ?",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                "Ước vọng, Những lựa chọn, Sự tiêu pha",
+                "Ý nghĩa sâu thẳm – chân lý, Tiến tới, Mệt mỏi",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                1, Category.SuitOfCups);
+        insertQuestion(q36);
+        //End Cups
+        Question q37= new Question("Ý nghĩa của lá bài Ace of Pentacles ?",
+                "Cân bằng, Linh hoạt, Vui vẻ",
+                "Làm việc nhóm, Lập kế hoạch, Thành tựu/xuất sắc",
+                "Có sự ảnh hưởng, Thực tế, Thịnh vượng, Tin tưởng/đáng tin cậy",
+                "Sức mạnh vật chất, Sự thịnh vượng, Tính khả thi, Niềm tin tưởng",
+                4, Category.SuitOfPentacles);
+        insertQuestion(q37);
+
+        Question q38= new Question("Ý nghĩa của lá bài 2 of Pentacles ?",
+                "Cân bằng, Linh hoạt, Vui vẻ",
+                "Sự đánh giá, Phần thưởng, Thay đổi định hướng",
+                "Sung túc, Bền lâu, Tập quán/quy tắc",
+                "Mạnh dạn, Lão luyện, Đáng tin cậy, Sự ủng hộ/hỗ trợ, Vững chắc",
+                1, Category.SuitOfPentacles);
+        insertQuestion(q38);
+
+        Question q39= new Question("Ý nghĩa của lá bài 3 of Pentacles ?",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                "Làm việc nhóm, Lập kế hoạch, Thành tựu/xuất sắc",
+                "Siêng năng, Hiểu biết, Tỉ mỉ",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                2, Category.SuitOfPentacles);
+        insertQuestion(q39);
+
+        Question q40= new Question("Ý nghĩa của lá bài 4 of Pentacles ?",
+                "Niềm vui, An bình, Gia đình",
+                "Chiếm hữu, Kiểm soát, Sự thay đổi bị chặn đứng",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                "Sự đánh giá, Phần thưởng, Thay đổi định hướng",
+                2, Category.SuitOfPentacles);
+        insertQuestion(q40);
+
+        Question q41= new Question("Ý nghĩa của lá bài 5 of Pentacles ?",
+                "Làm việc nhóm, Lập kế hoạch, Thành tựu/xuất sắc",
+                "Thời điểm khó khăn, Sức khỏe kém, Bị từ chối",
+                "Có sự ảnh hưởng, Thực tế, Thịnh vượng, Tin tưởng/đáng tin cậy",
+                "Kiên định – Lì lợm, Thận trọng – Không mạo hiểm, Kỹ lưỡng – Ám ảnh, Thực tế – Bi quan, Cần cù – Chăm chỉ",
+                2, Category.SuitOfPentacles);
+        insertQuestion(q41);
+
+        Question q42= new Question("Ý nghĩa của lá bài 6 of Pentacles ?",
+                "Nuôi dưỡng, Nhân cách cao cả, Tính hợp lý, Tháo vát, Đáng tin cậy",
+                "Thời điểm khó khăn, Sức khỏe kém, Bị từ chối",
+                "Nguồn lực, Kiến thức, Quyền năng",
+                "Kỷ luật, Tự lực, Tinh tế",
+                3, Category.SuitOfPentacles);
+        insertQuestion(q42);
+
+        Question q43= new Question("Ý nghĩa của lá bài 7 of Pentacles ?",
+                "Nguồn lực, Kiến thức, Quyền năng",
+                "Kỷ luật, Tự lực, Tinh tế",
+                "Sự đánh giá, Phần thưởng, Thay đổi định hướng",
+                "Kiên định – Lì lợm, Thận trọng – Không mạo hiểm, Kỹ lưỡng – Ám ảnh, Thực tế – Bi quan, Cần cù – Chăm chỉ",
+                3, Category.SuitOfPentacles);
+        insertQuestion(q43);
+
+        Question q44= new Question("Ý nghĩa của lá bài 8 of Pentacles ?",
+                "Nuôi dưỡng, Nhân cách cao cả, Tính hợp lý, Tháo vát, Đáng tin cậy",
+                "Thời điểm khó khăn, Sức khỏe kém, Bị từ chối",
+                "Siêng năng, Hiểu biết, Tỉ mỉ",
+                "Kỷ luật, Tự lực, Tinh tế",
+                3, Category.SuitOfPentacles);
+        insertQuestion(q44);
+
+        Question q45= new Question("Ý nghĩa của lá bài 9 of Pentacles ?",
+                "Thiện chí, Ngây thơ/khờ dại, Thời thơ ấu",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Niềm vui, An bình, Gia đình",
+                "Kỷ luật, Tự lực, Tinh tế",
+                4, Category.SuitOfPentacles);
+        insertQuestion(q45);
+
+        Question q46= new Question("Ý nghĩa của lá bài 10 of Pentacles ?",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                "Ước vọng, Những lựa chọn, Sự tiêu pha",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                "Sung túc, Bền lâu, Tập quán/quy tắc",
+                4, Category.SuitOfPentacles);
+        insertQuestion(q46);
+
+        Question q47= new Question("Ý nghĩa của lá bài King of Pentacles ?",
+                "Kỷ luật, Tự lực, Tinh tế",
+                "Mạnh dạn, Lão luyện, Đáng tin cậy, Sự ủng hộ/hỗ trợ, Vững chắc",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                "Sức mạnh cảm xúc, Trực giác, Thân mật, Tình yêu",
+                2, Category.SuitOfPentacles);
+        insertQuestion(q47);
+
+        Question q48= new Question("Ý nghĩa của lá bài Queen of Pentacles ?",
+                "Nuôi dưỡng, Nhân cách cao cả, Tính hợp lý, Tháo vát, Đáng tin cậy",
+                "Ước vọng, Những lựa chọn, Sự tiêu pha",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                "Niềm vui, An bình, Gia đình",
+                1, Category.SuitOfPentacles);
+        insertQuestion(q48);
+
+        Question q49= new Question("Ý nghĩa của lá bài Knight of Pentacles ?",
+                "Kiên định – Lì lợm, Thận trọng – Không mạo hiểm, Kỹ lưỡng – Ám ảnh, Thực tế – Bi quan, Cần cù – Chăm chỉ",
+                "Thiện chí, Ngây thơ/khờ dại, Thời thơ ấu",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Niềm vui, An bình, Gia đình",
+                1, Category.SuitOfPentacles);
+        insertQuestion(q49);
+
+        Question q50= new Question("Ý nghĩa của lá bài Page of Pentacles ?",
+                "Có sự ảnh hưởng, Thực tế, Thịnh vượng, Tin tưởng/đáng tin cậy",
+                "Ước vọng, Những lựa chọn, Sự tiêu pha",
+                "Ý nghĩa sâu thẳm – chân lý, Tiến tới, Mệt mỏi",
+                "Chỉ biết mỗi bản thân, Sự hờ hững, Tiến vào nội tâm",
+                1, Category.SuitOfPentacles);
+        insertQuestion(q50);
+        //End Pentacles
+
+        Question q51= new Question("Ý nghĩa của lá bài Ace of Swords ?",
+                "Sử dụng lý trí, Thật thà, Công bằng, Kiên cường",
+                "Hạn chế, Rối loạn, Mất quyền lực",
+                "Tự lợi, Bất hoà, Mất danh dự một cách công khai",
+                "Sức mạnh trí óc, Sự thật, Công lý, Kiên cường",
+                4, Category.SuitOfSwords);
+        insertQuestion(q51);
+
+        Question q52= new Question("Ý nghĩa của lá bài 2 of Swords ?",
+                "Ngăn chặn cảm xúc, Sự tránh xa, Sự bế tắc",
+                " Chạy trốn, Thích phong cách đơn độc, Nỗi hổ thẹn giấu kín",
+                "Thông minh, Biết phân tích, Ăn nói lưu loát, Công bằng, Đạo đức",
+                "Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm",
+                1, Category.SuitOfSwords);
+        insertQuestion(q52);
+
+        Question q53= new Question("Ý nghĩa của lá bài 3 of Swords ?",
+                "Chạm xuống đáy, Tâm lý bị hại, Chịu khổ nhục",
+                "Đau khổ, Cô đơn, Phản bội",
+                "Siêng năng, Hiểu biết, Tỉ mỉ",
+                "Dễ xúc động, Trực giác, Thân mật, Yêu thương",
+                2, Category.SuitOfSwords);
+        insertQuestion(q53);
+
+        Question q54= new Question("Ý nghĩa của lá bài 4 of Swords ?",
+                "Chạy trốn, Thích phong cách đơn độc, Nỗi hổ thẹn giấu kín",
+                " Nghỉ ngơi, Suy tính, Chuẩn bị trong lặng lẽ",
+                "Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm",
+                "Sử dụng lý trí, Thật thà, Công bằng, Kiên cường",
+                2, Category.SuitOfSwords);
+        insertQuestion(q54);
+
+        Question q55= new Question("Ý nghĩa của lá bài 5 of Swords ?",
+                "Sức mạnh trí óc, Sự thật, Công lý, Kiên cường",
+                "Tự lợi, Bất hoà, Mất danh dự một cách công khai",
+                "Ngăn chặn cảm xúc, Sự tránh xa, Sự bế tắc",
+                "Buồn tẻ, Phục hồi, Di chuyển",
+                2, Category.SuitOfSwords);
+        insertQuestion(q55);
+
+        Question q56= new Question("Ý nghĩa của lá bài 6 of Swords ?",
+                "Nuôi dưỡng, Nhân cách cao cả, Tính hợp lý, Tháo vát, Đáng tin cậy",
+                "Thời điểm khó khăn, Sức khỏe kém, Bị từ chối",
+                "Buồn tẻ, Phục hồi, Di chuyển",
+                "Kỷ luật, Tự lực, Tinh tế",
+                3, Category.SuitOfSwords);
+        insertQuestion(q56);
+
+        Question q57= new Question("Ý nghĩa của lá bài 7 of Swords ?",
+                "Chân thật, Sắc sảo, Thẳng thắn, Vui tính, Từng trải",
+                "Đau khổ, Cô đơn, Phản bội",
+                "Chạy trốn, Thích phong cách đơn độc, Nỗi hổ thẹn giấu kín",
+                "Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm",
+                3, Category.SuitOfSwords);
+        insertQuestion(q57);
+
+        Question q58= new Question("Ý nghĩa của lá bài 8 of Swords ?",
+                "Chạy trốn, Thích phong cách đơn độc, Nỗi hổ thẹn giấu kín",
+                "Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm",
+                "Hạn chế, Rối loạn, Mất quyền lực",
+                "Chạm xuống đáy, Tâm lý bị hại, Chịu khổ nhục",
+                3, Category.SuitOfSwords);
+        insertQuestion(q58);
+
+        Question q59= new Question("Ý nghĩa của lá bài 9 of Swords ?",
+                "Nuôi dưỡng, Nhân cách cao cả, Tính hợp lý, Tháo vát, Đáng tin cậy",
+                "Thời điểm khó khăn, Sức khỏe kém, Bị từ chối",
+                "Buồn tẻ, Phục hồi, Di chuyển",
+                "Lo lắng, Cảm giác tội lỗi, Nỗi thống khổ",
+                4, Category.SuitOfSwords);
+        insertQuestion(q59);
+
+        Question q60= new Question("Ý nghĩa của lá bài 10 of Swords ?",
+                "Sử dụng lý trí, Thật thà, Công bằng, Kiên cường",
+                "Chân thật, Sắc sảo, Thẳng thắn, Vui tính, Từng trải",
+                "Thông minh, Biết phân tích, Ăn nói lưu loát, Công bằng, Đạo đức",
+                "Chạm xuống đáy, Tâm lý bị hại, Chịu khổ nhục",
+                4, Category.SuitOfSwords);
+        insertQuestion(q60);
+
+        Question q61= new Question("Ý nghĩa của lá bài King of Swords ?",
+                "Sức mạnh trí óc, Sự thật, Công lý, Kiên cường",
+                "Thông minh, Biết phân tích, Ăn nói lưu loát, Công bằng, Đạo đức",
+                "Ngăn chặn cảm xúc, Sự tránh xa, Sự bế tắc",
+                "Đau khổ, Cô đơn, Phản bội",
+                2, Category.SuitOfSwords);
+        insertQuestion(q61);
+
+        Question q62= new Question("Ý nghĩa của lá bài Queen of Swords ?",
+                "Chân thật, Sắc sảo, Thẳng thắn, Vui tính, Từng trải",
+                "Thời điểm khó khăn, Sức khỏe kém, Bị từ chối",
+                "Buồn tẻ, Phục hồi, Di chuyển",
+                "Lo lắng, Cảm giác tội lỗi, Nỗi thống khổ",
+                1, Category.SuitOfSwords);
+        insertQuestion(q62);
+
+        Question q63= new Question("Ý nghĩa của lá bài Knight of Swords ?",
+                "Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm",
+                "Thiện chí, Ngây thơ/khờ dại, Thời thơ ấu",
+                "Mất mát, Tang thương, Hối tiếc",
+                "Niềm vui, An bình, Gia đình",
+                1, Category.SuitOfSwords);
+        insertQuestion(q63);
+
+        Question q64= new Question("Ý nghĩa của lá bài Page of Swords ?",
+                "Sử dụng lý trí, Thật thà, Công bằng, Kiên cường",
+                "Hạn chế, Rối loạn, Mất quyền lực",
+                "Buồn tẻ, Phục hồi, Di chuyển",
+                "Đau khổ, Cô đơn, Phản bội",
+                1, Category.SuitOfSwords);
+        insertQuestion(q64);
+
+        //End Swords
+        Question q65= new Question("Ý nghĩa của lá bài Ace of WANDS ?",
+                "Quyến rũ – Khô khan Tự tin – Tự mãn Dũng cảm – LIều lĩnh Mạo hiểm – Lo lắng Nồng nhiệt – Nóng nảy",
+                "Phòng vệ Kiên nhẫn Chịu đựng",
+                "Ăn mừng Tự do Niềm phấn khích",
+                "Sáng tạo, Nhiệt tình, Tự tin, Can đảm",
+                4, Category.SuitOfWands);
+        insertQuestion(q65);
+
+        Question q66= new Question("Ý nghĩa của lá bài 2 of WANDS ?",
+                "Sức mạnh bản thân, Lòng can đảm, Tính độc đáo/nguyên bản",
+                "Hành động nhanh Kết thúc / dứt điểm Tin tức",
+                "Ăn mừng Tự do Niềm phấn khích",
+                "Quá sức Gánh nặng Cam chịu",
+                1, Category.SuitOfWands);
+        insertQuestion(q66);
+
+        Question q67= new Question("Ý nghĩa của lá bài 3 of WANDS ?",
+                "Ca khúc khải hoàn Tôn vinh Niềm kiêu hãnh",
+                "Khám phá Thấy trước Tài lãnh đạo",
+                "Năng nổ Chống cự Chắc chắn",
+                "Bất đồng Đấu tranh Phiền nhiễu",
+                2, Category.SuitOfWands);
+        insertQuestion(q67);
+
+        Question q68= new Question("Ý nghĩa của lá bài 4 of WANDS ?",
+                "Bất đồng Đấu tranh Phiền nhiễu",
+                "Ăn mừng Tự do Niềm phấn khích",
+                "Sáng tạo Truyền cảm hứng Mạnh mẽ Có sức lôi cuốn Táo bạo",
+                "Hấp dẫn Toàn tâm Nhiệt huyết Vui vẻ Tự tin",
+                2, Category.SuitOfWands);
+        insertQuestion(q68);
+
+        Question q69= new Question("Ý nghĩa của lá bài 5 of WANDS ?",
+                "Quá sức Gánh nặng Cam chịu",
+                "Bất đồng Đấu tranh Phiền nhiễu",
+                "Sức mạnh bản thân, Lòng can đảm, Tính độc đáo/nguyên bản",
+                "Khám phá Thấy trước Tài lãnh đạo",
+                2, Category.SuitOfWands);
+        insertQuestion(q69);
+
+        Question q70= new Question("Ý nghĩa của lá bài 6 of WANDS ?",
+                "Quá sức Gánh nặng Cam chịu",
+                "Phòng vệ Kiên nhẫn Chịu đựng",
+                "Ca khúc khải hoàn Tôn vinh Niềm kiêu hãnh",
+                "Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm\"",
+                3, Category.SuitOfWands);
+        insertQuestion(q70);
+
+        Question q71= new Question("Ý nghĩa của lá bài 7 of WANDS ?",
+                "Hành động nhanh Kết thúc / dứt điểm Tin tức",
+                "Sáng tạo, Nhiệt tình, Tự tin, Can đảm",
+                "Năng nổ Chống cự Chắc chắn",
+                "Bất đồng Đấu tranh Phiền nhiễu",
+                3, Category.SuitOfWands);
+        insertQuestion(q71);
+
+        Question q72= new Question("Ý nghĩa của lá bài 8 of WANDS ?",
+                "Ca khúc khải hoàn Tôn vinh Niềm kiêu hãnh",
+                "Thẳng thắn – lỗ mãng, Có thẩm quyền – hống hách, Sắc bén – cắt giảm, Am hiểu – ngoan cố, Lý trí – nhẫn tâm",
+                "Hành động nhanh Kết thúc / dứt điểm Tin tức",
+                "Năng nổ Chống cự Chắc chắn",
+                3, Category.SuitOfWands);
+        insertQuestion(q72);
+
+        Question q73= new Question("Ý nghĩa của lá bài 9 of WANDS ?",
+                "Hành động nhanh Kết thúc / dứt điểm Tin tức",
+                "Ăn mừng Tự do Niềm phấn khích",
+                "Quá sức Gánh nặng Cam chịu",
+                "Phòng vệ Kiên nhẫn Chịu đựng",
+                4, Category.SuitOfWands);
+        insertQuestion(q73);
+
+        Question q74= new Question("Ý nghĩa của lá bài 10 of WANDS ?",
+                "Bất đồng Đấu tranh Phiền nhiễu",
+                "Hành động nhanh Kết thúc / dứt điểm Tin tức",
+                "Ăn mừng Tự do Niềm phấn khích",
+                "Quá sức Gánh nặng Cam chịu",
+                4, Category.SuitOfWands);
+        insertQuestion(q74);
+
+        Question q75= new Question("Ý nghĩa của lá bài King of WANDS ?",
+                "Quá sức Gánh nặng Cam chịu",
+                "Sáng tạo Truyền cảm hứng Mạnh mẽ Có sức lôi cuốn Táo bạo",
+                "Phòng vệ Kiên nhẫn Chịu đựng",
+                "Ăn mừng Tự do Niềm phấn khích",
+                2, Category.SuitOfWands);
+        insertQuestion(q75);
+
+        Question q76= new Question("Ý nghĩa của lá bài Queen of WANDS ?",
+                "Hấp dẫn Toàn tâm Nhiệt huyết Vui vẻ Tự tin",
+                "Sức mạnh bản thân, Lòng can đảm, Tính độc đáo/nguyên bản",
+                "Năng nổ Chống cự Chắc chắn",
+                "Quá sức Gánh nặng Cam chịu",
+                1, Category.SuitOfWands);
+        insertQuestion(q76);
+
+        Question q77= new Question("Ý nghĩa của lá bài Knight of WANDS ?",
+                "Quyến rũ – Khô khan Tự tin – Tự mãn Dũng cảm – LIều lĩnh Mạo hiểm – Lo lắng Nồng nhiệt – Nóng nảy",
+                "Phòng vệ Kiên nhẫn Chịu đựng",
+                "Hành động nhanh Kết thúc / dứt điểm Tin tức",
+                "Ca khúc khải hoàn Tôn vinh Niềm kiêu hãnh",
+                1, Category.SuitOfWands);
+        insertQuestion(q77);
+
+        Question q78= new Question("Ý nghĩa của lá bài Page of WANDS ?",
+                "Sáng tạo Nhiệt huyết Tự tin Can đảm",
+                "Quá sức Gánh nặng Cam chịu",
+                "Sức mạnh bản thân, Lòng can đảm, Tính độc đáo/nguyên bản",
+                "Khám phá Thấy trước Tài lãnh đạo",
+                1, Category.SuitOfWands);
+        insertQuestion(q78);
+        // End Wands
     }
 
 
